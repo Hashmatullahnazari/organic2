@@ -102,10 +102,11 @@ padding: 20px;
 }
 
  .section2 .container {
-  padding: 0 16px;
+  padding: 50px 16px;
+     margin: 25px 0;
 }
 
-.section2 .container::after, .section2 .row::after {
+.section2, .container::after, .section2, .row::after {
   content: "";
   clear: both;
   display: table;
@@ -133,6 +134,190 @@ padding: 20px;
 
 @media screen and (max-width: 700px) {
   .section2 .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.section3
+{
+    padding: 20px;
+    max-width: 1300px;
+    margin: auto
+}
+
+ /* Three columns side by side */
+.section3 .column {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+    
+}
+
+.section3 .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+
+
+.section3 .about-section {
+  padding: 50px;
+  text-align: center;
+ background-color: #f5faef;
+  color: black;
+}
+
+.section3 .container {
+   
+padding: 20px 0px;
+    background-color: #f5faef;
+    
+}
+
+.section3 .container h2 {
+padding: 20px 0px;
+    background-color: #f5faef;
+    
+}
+
+.section3 .container p {
+padding: 20px 0px;
+    background-color: #f5faef;
+    
+}
+
+.section3, .container::after, .section3, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.section3 .title {
+  color: grey;
+}
+
+.section3 .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.section3 .button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 700px) {
+  .section3 .column {
+    width: 100%;
+    display: block;
+  }
+}
+.section4 
+{
+    max-width: 100%;
+}
+
+
+
+.section4 .hero-image {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)),url("images/sec4imgbg.png");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    
+}
+
+.section4 .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50% , -50%);
+  color: white;
+    max-width: 600px;
+
+}
+
+.section4 .hero-text h1, h3{
+ padding-bottom: 30px;
+
+}
+
+
+.section4 .hero-text button{
+padding: 20px;
+    
+}
+
+
+.section5  {
+ max-width: 1500px;
+    margin: auto;
+}
+
+.section5 .column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.section5 .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.section5 .about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #d7ebc1;
+  color: black;
+}
+
+.section5 .container {
+  padding: 0 16px;
+}
+
+.section5 .container::after, .section5 .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.section5 .title {
+  color: grey;
+}
+
+.section5 .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.section5 .button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .section5 .column {
     width: 100%;
     display: block;
   }
